@@ -1,0 +1,126 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckLauncher", "CheckLauncher\CheckLauncher.csproj", "{486BAB2D-6DB3-4229-98F6-BC622D6F6BB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferenceDocuments", "ReferenceDocuments", "{0C1F096A-728D-4475-B6DA-E8657BDF010A}"
+	ProjectSection(SolutionItems) = preProject
+		ReferenceDocuments\CheckRunArtifact.xsl = ReferenceDocuments\CheckRunArtifact.xsl
+		ReferenceDocuments\NotesOnXsltStylesheet.txt = ReferenceDocuments\NotesOnXsltStylesheet.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaAutomationService", "MetaAutomationService\MetaAutomationService.csproj", "{0FB957BE-9C01-45B9-BD9A-2CF6CD12A02D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Artifacts", "Artifacts", "{612BC0A0-9B42-4C1B-B3D7-6DABD2C1FA24}"
+	ProjectSection(SolutionItems) = preProject
+		Artifacts\CheckMap.xml = Artifacts\CheckMap.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckMethods", "CheckMethods\CheckMethods.csproj", "{0CBB95E2-8BF0-4D69-AAFB-B67C843EC829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckProcess", "CheckProcess\CheckProcess.csproj", "{760D12FA-CDEB-4635-ABEF-64AF9B625E14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaAutomationLauncherMtLibrary", "MetaAutomationLauncherMtLibrary\MetaAutomationLauncherMtLibrary.csproj", "{B2A69F95-838A-4EF2-BCA6-29727AAF9086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaAutomationBaseMtLibrary", "MetaAutomationBaseMtLibrary\MetaAutomationBaseMtLibrary.csproj", "{44D03555-74FA-4A64-B42C-4A98EE0E9FB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaAutomationClientMt", "MetaAutomationClientMt\MetaAutomationClientMt.csproj", "{BE5E1FB1-E707-42F9-8BAC-4E39424EA51E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaAutomationClientMtLibrary", "MetaAutomationClientMtLibrary\MetaAutomationClientMtLibrary.csproj", "{9EC30589-47EB-4F54-89E7-924917BD5260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaAutomationServiceMtLibrary", "MetaAutomationServiceMtLibrary\MetaAutomationServiceMtLibrary.csproj", "{A7FB899D-4880-44F0-9404-6A3E170BB545}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example_1_SimpleOneTierCheck", "Example_1_SimpleOneTierCheck", "{80D0D305-102B-48BD-9813-F3A390342490}"
+	ProjectSection(SolutionItems) = preProject
+		Artifacts\Example_1_SimpleOneTierCheck\CheckRunArtifact_Original.xml = Artifacts\Example_1_SimpleOneTierCheck\CheckRunArtifact_Original.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example_2_CheckOfWebPageBuiltToFailRandomly", "Example_2_CheckOfWebPageBuiltToFailRandomly", "{F042843F-BD0D-419E-BCEB-6F4B1F741284}"
+	ProjectSection(SolutionItems) = preProject
+		Artifacts\Example_2_CheckOfWebPageBuiltToFailRandomly\CheckRunArtifact_Original.xml = Artifacts\Example_2_CheckOfWebPageBuiltToFailRandomly\CheckRunArtifact_Original.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example_3_TwoTierCheckOfFileSystem", "Example_3_TwoTierCheckOfFileSystem", "{9B4136E6-68AA-4F55-A840-DA16A99441DC}"
+	ProjectSection(SolutionItems) = preProject
+		Artifacts\Example_3_TwoTierCheckOfFileSystem\CheckRunArtifact_Original.xml = Artifacts\Example_3_TwoTierCheckOfFileSystem\CheckRunArtifact_Original.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example_4_DeeplyNestedCrossProcessCheck", "Example_4_DeeplyNestedCrossProcessCheck", "{70D6AE5F-B2E3-4805-A8B8-9F004F5759DC}"
+	ProjectSection(SolutionItems) = preProject
+		Artifacts\Example_4_DeeplyNestedCrossProcessCheck\CheckRunArtifact_Original.xml = Artifacts\Example_4_DeeplyNestedCrossProcessCheck\CheckRunArtifact_Original.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example_5_StaticFailureIndicatedInArtifact_DebugBuildOnly", "Example_5_StaticFailureIndicatedInArtifact_DebugBuildOnly", "{19413E07-27DF-4695-8CB6-663F18E68260}"
+	ProjectSection(SolutionItems) = preProject
+		Artifacts\Example_5_StaticFailureIndicatedInArtifact_DebugBuildOnly\CheckRunArtifact_Original.xml = Artifacts\Example_5_StaticFailureIndicatedInArtifact_DebugBuildOnly\CheckRunArtifact_Original.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example_6_RollingFailureIndicatedInArtifact_DebugBuildOnly", "Example_6_RollingFailureIndicatedInArtifact_DebugBuildOnly", "{2A6F354E-C41D-44A9-B0B7-E2434528CEF0}"
+	ProjectSection(SolutionItems) = preProject
+		Artifacts\Example_6_RollingFailureIndicatedInArtifact_DebugBuildOnly\CheckRunArtifact_Original.xml = Artifacts\Example_6_RollingFailureIndicatedInArtifact_DebugBuildOnly\CheckRunArtifact_Original.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{54ACBF6D-A9AA-44E7-88C0-89A8E727D4A2}"
+	ProjectSection(SolutionItems) = preProject
+		MetaAutomation Sample3 Installation Instructions.docx = MetaAutomation Sample3 Installation Instructions.docx
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Description = This sample is cross-process and multi-machine
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{486BAB2D-6DB3-4229-98F6-BC622D6F6BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486BAB2D-6DB3-4229-98F6-BC622D6F6BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486BAB2D-6DB3-4229-98F6-BC622D6F6BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486BAB2D-6DB3-4229-98F6-BC622D6F6BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB957BE-9C01-45B9-BD9A-2CF6CD12A02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB957BE-9C01-45B9-BD9A-2CF6CD12A02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB957BE-9C01-45B9-BD9A-2CF6CD12A02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB957BE-9C01-45B9-BD9A-2CF6CD12A02D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBB95E2-8BF0-4D69-AAFB-B67C843EC829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBB95E2-8BF0-4D69-AAFB-B67C843EC829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBB95E2-8BF0-4D69-AAFB-B67C843EC829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBB95E2-8BF0-4D69-AAFB-B67C843EC829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760D12FA-CDEB-4635-ABEF-64AF9B625E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760D12FA-CDEB-4635-ABEF-64AF9B625E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760D12FA-CDEB-4635-ABEF-64AF9B625E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760D12FA-CDEB-4635-ABEF-64AF9B625E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A69F95-838A-4EF2-BCA6-29727AAF9086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A69F95-838A-4EF2-BCA6-29727AAF9086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A69F95-838A-4EF2-BCA6-29727AAF9086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A69F95-838A-4EF2-BCA6-29727AAF9086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D03555-74FA-4A64-B42C-4A98EE0E9FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D03555-74FA-4A64-B42C-4A98EE0E9FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D03555-74FA-4A64-B42C-4A98EE0E9FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D03555-74FA-4A64-B42C-4A98EE0E9FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5E1FB1-E707-42F9-8BAC-4E39424EA51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5E1FB1-E707-42F9-8BAC-4E39424EA51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5E1FB1-E707-42F9-8BAC-4E39424EA51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5E1FB1-E707-42F9-8BAC-4E39424EA51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC30589-47EB-4F54-89E7-924917BD5260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC30589-47EB-4F54-89E7-924917BD5260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC30589-47EB-4F54-89E7-924917BD5260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC30589-47EB-4F54-89E7-924917BD5260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7FB899D-4880-44F0-9404-6A3E170BB545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FB899D-4880-44F0-9404-6A3E170BB545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FB899D-4880-44F0-9404-6A3E170BB545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FB899D-4880-44F0-9404-6A3E170BB545}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80D0D305-102B-48BD-9813-F3A390342490} = {612BC0A0-9B42-4C1B-B3D7-6DABD2C1FA24}
+		{F042843F-BD0D-419E-BCEB-6F4B1F741284} = {612BC0A0-9B42-4C1B-B3D7-6DABD2C1FA24}
+		{9B4136E6-68AA-4F55-A840-DA16A99441DC} = {612BC0A0-9B42-4C1B-B3D7-6DABD2C1FA24}
+		{70D6AE5F-B2E3-4805-A8B8-9F004F5759DC} = {612BC0A0-9B42-4C1B-B3D7-6DABD2C1FA24}
+		{19413E07-27DF-4695-8CB6-663F18E68260} = {612BC0A0-9B42-4C1B-B3D7-6DABD2C1FA24}
+		{2A6F354E-C41D-44A9-B0B7-E2434528CEF0} = {612BC0A0-9B42-4C1B-B3D7-6DABD2C1FA24}
+	EndGlobalSection
+EndGlobal

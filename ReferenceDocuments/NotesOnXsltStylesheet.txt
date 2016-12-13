@@ -1,0 +1,32 @@
+The stylesheet "CheckRunArtifact.xsl" is a sample presentation for an artifact file
+from a single run of a single check, in the context of the MetaAutomation
+solution.
+
+When the XML file from the check run (a check run artifact file) is opened in a
+modern web browser, and the file "CheckRunArtifact.xsl" is present in the correct
+relative directory, the browser will create at runtime a web page of the artifact
+i.e. a presentation of the data.
+
+The presentation shows the following elements:
+*Title (hard-coded)
+*The check name, taken from the check method name
+*whether the check passed or failed
+*the steps of the check shown in the step hiearchy, with status pass, fail, or blocked
+*color-coding for check pass/fail status
+*color-coding for check step pass/fail/blocked status
+*time limit for each check step
+*time elapsed for each check step (other than blocked steps, which didn't execute at all)
+*check fail data from the innermost step that failed, including hierarchy from sub-checks
+
+This demonstrates the flexibility of creating presentations of artifact data when
+the artifact itself is pure, structured data with a schema, as with the Atomic Check
+pattern of MetaAutomation.
+
+
+
+
+TODO verify behavior of
+   nested exception info
+   fail with some passes
+   ? add target machine info for steps
+TODO run machine/VM for checks and sub-checks, in artifact and presentation
