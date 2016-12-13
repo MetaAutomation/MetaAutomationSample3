@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CheckRunArtifact>
+  <CheckRunData>
+    <DataElement Name="PathAndFileToRunner" Value="C:\Users\CheckClientUser\Documents\Checks\CheckProcess.exe" />
+    <DataElement Name="DestinationMachine" Value="CLIENTMACHINE3" />
+    <DataElement Name="CheckClientUser" Value="Matt" />
+    <DataElement Name="CheckJobSpecGuid" Value="00000000-0000-0000-0000-000000000000" />
+    <DataElement Name="CheckJobRunGuid" Value="00000000-0000-0000-0000-000000000000" />
+    <DataElement Name="CheckRunGuid" Value="5ca9a3c2-0e6d-4146-b147-5d91d81445e8" />
+    <DataElement Name="OriginMachine" Value="CLIENTMACHINE1" />
+    <DataElement Name="CheckMethodName" Value="MultipleTier000" />
+    <DataElement Name="CheckMethodGuid" Value="64941B8E-A19C-48D4-BA0A-F51E7D668B4E" />
+    <DataElement Name="ThreadPoolUserName" Value="Domain\CheckClientUser" />
+    <DataElement Name="SemaphoreTimeOutMilliseconds" Value="30000" />
+    <DataElement Name="CheckLibraryAssembly" Value="CheckMethods.dll" />
+    <DataElement Name="CheckBeginTime" Value="2016-12-08T19:08:13.0589952Z" />
+    <DataElement Name="CheckEndTime" Value="2016-12-08T19:08:18.5902609Z" />
+    <DataElement Name="Reserved_SubCheckMap" Value="1" />
+    <DataElement Name="CheckObjectStorageKey" Value="Global\5ca9a3c20e6d4146b1475d91d81445e8CLIENTMACHINE11CLIENTMACHINE364941b8ea19c48d4ba0af51e7d668b4e.CLIENTMACHINE1.CLIENTMACHINE3" />
+    <SubCheckData>
+      <DataElement Name="CheckMethodName" Value="MultipleTier100" />
+      <DataElement Name="CheckMethodGuid" Value="C550FF73-1420-4CBF-8C17-229888195C03" />
+      <DataElement Name="Reserved_SubCheckMap" Value="11" />
+      <DataElement Name="DestinationMachine" Value="CLIENTMACHINE2" />
+      <SubCheckData>
+        <DataElement Name="CheckMethodName" Value="MultipleTier110" />
+        <DataElement Name="CheckMethodGuid" Value="13ADE059-1D28-45EE-8194-C5C514AC6CBA" />
+        <DataElement Name="Reserved_SubCheckMap" Value="111" />
+        <DataElement Name="DestinationMachine" Value="CLIENTMACHINE3" />
+      </SubCheckData>
+      <SubCheckData>
+        <DataElement Name="CheckMethodName" Value="MultipleTier120" />
+        <DataElement Name="CheckMethodGuid" Value="40EA37B7-CBBD-4AAE-9904-AE5D790E10B6" />
+        <DataElement Name="Reserved_SubCheckMap" Value="112" />
+        <DataElement Name="DestinationMachine" Value="CLIENTMACHINE2" />
+        <SubCheckData>
+          <DataElement Name="CheckMethodName" Value="MultipleTier121" />
+          <DataElement Name="CheckMethodGuid" Value="C35A168F-BF65-497C-9128-9AD1F9FA6C88" />
+          <DataElement Name="Reserved_SubCheckMap" Value="1121" />
+          <DataElement Name="DestinationMachine" Value="CLIENTMACHINE3" />
+        </SubCheckData>
+      </SubCheckData>
+    </SubCheckData>
+    <SubCheckData>
+      <DataElement Name="CheckMethodName" Value="MultipleTier200" />
+      <DataElement Name="CheckMethodGuid" Value="0A5D02EF-1151-41D0-9880-E950D2154EE3" />
+      <DataElement Name="Reserved_SubCheckMap" Value="12" />
+      <DataElement Name="DestinationMachine" Value="CLIENTMACHINE2" />
+    </SubCheckData>
+    <SubCheckData>
+      <DataElement Name="CheckMethodName" Value="MultipleTier300" />
+      <DataElement Name="CheckMethodGuid" Value="86DC9DF2-86E7-4DA6-8FED-89CE2B051CA3" />
+      <DataElement Name="Reserved_SubCheckMap" Value="13" />
+    </SubCheckData>
+  </CheckRunData>
+  <CheckCustomData>
+    <DataElement Name="SetCustomData in MultipleTier000, Step 1. NAME" Value="AddCheckRunData in MultipleTier000, Step 1. VALUE" />
+    <DataElement Name="Custom run data MultipleTier000.outer scope" Value="custom run value MultipleTier000.outer scope" />
+  </CheckCustomData>
+  <CheckFailData />
+  <CompleteCheckStepInfo>
+    <CheckStep Name="Method MultipleTier000" msTimeLimit="10000" MachineName="CLIENTMACHINE3" msTimeElapsed="5531" Value="Pass">
+      <CheckStep Name="MultipleTier000, Step 1." msTimeLimit="8000" MachineName="CLIENTMACHINE3" msTimeElapsed="3671" Value="Pass">
+        <CheckStep Name="Method MultipleTier100" msTimeLimit="5000" MachineName="CLIENTMACHINE2" msTimeElapsed="2875" Value="Pass">
+      <CheckStep Name="MultipleTier100, Step 1." msTimeLimit="5000" MachineName="CLIENTMACHINE2" msTimeElapsed="1062" Value="Pass">
+        <CheckStep Name="Method MultipleTier110" msTimeLimit="1000" MachineName="CLIENTMACHINE3" msTimeElapsed="62" Value="Pass">
+      <CheckStep Name="MultipleTier110, Step 1." msTimeLimit="1000" MachineName="CLIENTMACHINE3" msTimeElapsed="62" Value="Pass" />
+    </CheckStep>
+      </CheckStep>
+      <CheckStep Name="MultipleTier100, Step 2." msTimeLimit="5000" MachineName="CLIENTMACHINE2" msTimeElapsed="1812" Value="Pass">
+        <CheckStep Name="Method MultipleTier120" msTimeLimit="3000" MachineName="CLIENTMACHINE2" msTimeElapsed="1062" Value="Pass">
+      <CheckStep Name="MultipleTier120, Step 1." msTimeLimit="3000" MachineName="CLIENTMACHINE2" msTimeElapsed="1062" Value="Pass">
+        <CheckStep Name="Method MultipleTier121" msTimeLimit="1000" MachineName="CLIENTMACHINE3" msTimeElapsed="62" Value="Pass">
+      <CheckStep Name="MultipleTier121, Step 1." msTimeLimit="1000" MachineName="CLIENTMACHINE3" msTimeElapsed="62" Value="Pass" />
+    </CheckStep>
+      </CheckStep>
+    </CheckStep>
+      </CheckStep>
+    </CheckStep>
+      </CheckStep>
+      <CheckStep Name="MultipleTier000, Step 2." msTimeLimit="5000" MachineName="CLIENTMACHINE3" msTimeElapsed="1843" Value="Pass">
+        <CheckStep Name="MultipleTier000, Step 2.1" msTimeLimit="2000" MachineName="CLIENTMACHINE3" msTimeElapsed="812" Value="Pass">
+          <CheckStep Name="Method MultipleTier200" msTimeLimit="1000" MachineName="CLIENTMACHINE2" msTimeElapsed="62" Value="Pass">
+      <CheckStep Name="MultipleTier200, Step 1." msTimeLimit="1000" MachineName="CLIENTMACHINE2" msTimeElapsed="62" Value="Pass" />
+    </CheckStep>
+        </CheckStep>
+        <CheckStep Name="MultipleTier000, Step 2.2" msTimeLimit="5000" MachineName="CLIENTMACHINE3" msTimeElapsed="1031" Value="Pass">
+          <CheckStep Name="Method MultipleTier300" msTimeLimit="1000" MachineName="CLIENTMACHINE3" msTimeElapsed="62" Value="Pass">
+      <CheckStep Name="MultipleTier300, Step 1." msTimeLimit="1000" MachineName="CLIENTMACHINE3" msTimeElapsed="62" Value="Pass" />
+    </CheckStep>
+        </CheckStep>
+      </CheckStep>
+    </CheckStep>
+  </CompleteCheckStepInfo>
+</CheckRunArtifact>

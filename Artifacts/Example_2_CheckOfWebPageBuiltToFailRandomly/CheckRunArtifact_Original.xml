@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CheckRunArtifact>
+  <CheckRunData>
+    <DataElement Name="PathAndFileToRunner" Value="C:\Users\CheckClientUser\Documents\Checks\CheckProcess.exe" />
+    <DataElement Name="DestinationMachine" Value="CLIENTMACHINE2" />
+    <DataElement Name="CheckClientUser" Value="Matt" />
+    <DataElement Name="CheckJobSpecGuid" Value="00000000-0000-0000-0000-000000000000" />
+    <DataElement Name="CheckJobRunGuid" Value="00000000-0000-0000-0000-000000000000" />
+    <DataElement Name="CheckRunGuid" Value="da106cb6-1b1a-4875-aea4-3f89bbd93d02" />
+    <DataElement Name="OriginMachine" Value="CLIENTMACHINE1" />
+    <DataElement Name="CheckMethodName" Value="FlakyPageCheck" />
+    <DataElement Name="CheckMethodGuid" Value="DE7F55D5-EA38-4821-9F7F-CF75F179C4AF" />
+    <DataElement Name="ThreadPoolUserName" Value="Domain\CheckClientUser" />
+    <DataElement Name="SemaphoreTimeOutMilliseconds" Value="30000" />
+    <DataElement Name="CheckLibraryAssembly" Value="CheckMethods.dll" />
+    <DataElement Name="CheckBeginTime" Value="2016-12-08T19:08:07.9017861Z" />
+    <DataElement Name="CheckEndTime" Value="2016-12-08T19:08:08.0580469Z" />
+    <DataElement Name="Reserved_SubCheckMap" Value="1" />
+    <DataElement Name="CheckObjectStorageKey" Value="Global\da106cb61b1a4875aea43f89bbd93d02CLIENTMACHINE11CLIENTMACHINE2de7f55d5ea3848219f7fcf75f179c4af.CLIENTMACHINE1.CLIENTMACHINE2" />
+  </CheckRunData>
+  <CheckCustomData />
+  <CheckFailData />
+  <CompleteCheckStepInfo>
+    <CheckStep Name="Method FlakyPageCheck" msTimeLimit="10000" MachineName="CLIENTMACHINE2" msTimeElapsed="156" Value="Pass">
+      <CheckStep Name="Get the basic web page" msTimeLimit="8000" MachineName="CLIENTMACHINE2" msTimeElapsed="156" Value="Pass">
+        <CheckStep Name="Make a HttpWebRequest" msTimeLimit="100" MachineName="CLIENTMACHINE2" msTimeElapsed="0" Value="Pass" />
+        <CheckStep Name="Get the HttpWebResponse" msTimeLimit="8000" MachineName="CLIENTMACHINE2" msTimeElapsed="140" Value="Pass">
+          <DataElement Name="HttpStatusCode" Value="OK" />
+        </CheckStep>
+        <CheckStep Name="Read the text of the page" msTimeLimit="1000" MachineName="CLIENTMACHINE2" msTimeElapsed="15" Value="Pass" />
+      </CheckStep>
+      <CheckStep Name="Target verification step" msTimeLimit="1000" MachineName="CLIENTMACHINE2" msTimeElapsed="0" Value="Pass" />
+    </CheckStep>
+  </CompleteCheckStepInfo>
+</CheckRunArtifact>
