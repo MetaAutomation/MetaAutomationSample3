@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CheckRunArtifact>
   <CheckRunData>
-    <DataElement Name="PathAndFileToRunner" Value="C:\Users\CheckClientUser\Documents\Checks\CheckProcess.exe" />
-    <DataElement Name="DestinationMachine" Value="CLIENTMACHINE3" />
-    <DataElement Name="CheckClientUser" Value="Domain\CheckClientUser" />
+    <DataElement Name="PathAndFileToRunner" Value="C:\Users\EDIT_DIRNAME\Documents\Checks\CheckProcess.exe" />
+    <DataElement Name="DestinationMachine" Value="EDIT_CLIENTMACHINE3" />
+    <DataElement Name="CheckClientUser" Value="EDIT_DOMAIN\USERNAME" />
     <DataElement Name="CheckJobSpecGuid" Value="00000000-0000-0000-0000-000000000000" />
     <DataElement Name="CheckJobRunGuid" Value="00000000-0000-0000-0000-000000000000" />
     <DataElement Name="CheckRunGuid" Value="b31b1ad3-5041-4810-8b89-d91d1189401b" />
-    <DataElement Name="OriginMachine" Value="CLIENTMACHINE1" />
+    <DataElement Name="OriginMachine" Value="EDIT_CLIENTMACHINE1" />
     <DataElement Name="CheckMethodName" Value="OneTierExampleCheck" />
     <DataElement Name="CheckMethodGuid" Value="B650890A-20D1-4D84-B067-7535F1005195" />
-    <DataElement Name="ThreadPoolUserName" Value="Domain\CheckClientUser" />
+    <DataElement Name="ThreadPoolUserName" Value="EDIT_DOMAIN\USERNAME" />
     <DataElement Name="SemaphoreTimeOutMilliseconds" Value="30000" />
     <DataElement Name="CheckLibraryAssembly" Value="CheckMethods.dll" />
     <DataElement Name="CheckBeginTime" Value="2016-12-08T19:08:13.0589952Z" />
@@ -21,10 +21,10 @@
   <CheckCustomData />
   <CheckFailData />
   <CompleteCheckStepInfo>
-    <CheckStep Name="Method OneTierExampleCheck" msTimeLimit="1000" MachineName="CLIENTMACHINE3" msTimeElapsed="140" Value="Pass">
-      <CheckStep Name="Step 1." msTimeLimit="500" MachineName="CLIENTMACHINE3" msTimeElapsed="78" Value="Pass" />
-      <CheckStep Name="Step 2." msTimeLimit="500" MachineName="CLIENTMACHINE3" msTimeElapsed="62" Value="Pass">
-        <CheckStep Name="Step 3." msTimeLimit="500" MachineName="CLIENTMACHINE3" msTimeElapsed="62" Value="Pass" />
+    <CheckStep Name="Method OneTierExampleCheck" msTimeLimit="1000" MachineName="" msTimeElapsed="140" Value="Pass">
+      <CheckStep Name="Step 1." msTimeLimit="500" MachineName="" msTimeElapsed="78" Value="Pass" />
+      <CheckStep Name="Step 2." msTimeLimit="500" MachineName="" msTimeElapsed="62" Value="Pass">
+        <CheckStep Name="Step 3." msTimeLimit="500" MachineName="" msTimeElapsed="62" Value="Pass" />
       </CheckStep>
     </CheckStep>
   </CompleteCheckStepInfo>

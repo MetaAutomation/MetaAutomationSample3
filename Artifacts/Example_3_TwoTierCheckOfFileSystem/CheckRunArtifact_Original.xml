@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CheckRunArtifact>
   <CheckRunData>
-    <DataElement Name="PathAndFileToRunner" Value="C:\Users\CheckClientUser\Documents\Checks\CheckProcess.exe" />
-    <DataElement Name="DestinationMachine" Value="CLIENTMACHINE2" />
-    <DataElement Name="CheckClientUser" Value="Matt" />
+    <DataElement Name="PathAndFileToRunner" Value="C:\Users\EDIT_DIRNAME\Documents\Checks\CheckProcess.exe" />
+    <DataElement Name="DestinationMachine" Value="EDIT_CLIENTMACHINE2" />
+    <DataElement Name="CheckClientUser" Value="EDIT_USERNAME" />
     <DataElement Name="CheckJobSpecGuid" Value="00000000-0000-0000-0000-000000000000" />
     <DataElement Name="CheckJobRunGuid" Value="00000000-0000-0000-0000-000000000000" />
     <DataElement Name="CheckRunGuid" Value="0745c77e-188c-4cf5-8b48-744a6c863a5d" />
-    <DataElement Name="OriginMachine" Value="CLIENTMACHINE1" />
+    <DataElement Name="OriginMachine" Value="EDIT_CLIENTMACHINE1" />
     <DataElement Name="CheckMethodName" Value="ExampleOuterCheck" />
     <DataElement Name="CheckMethodGuid" Value="C12DDDFF-B4FA-43C5-B664-5060849E5193" />
-    <DataElement Name="ThreadPoolUserName" Value="Domain\CheckClientUser" />
+    <DataElement Name="ThreadPoolUserName" Value="EDIT_DOMAIN\USERNAME" />
     <DataElement Name="SemaphoreTimeOutMilliseconds" Value="30000" />
     <DataElement Name="CheckLibraryAssembly" Value="CheckMethods.dll" />
     <DataElement Name="CheckBeginTime" Value="2016-12-08T19:08:07.9017861Z" />
@@ -18,7 +18,7 @@
     <DataElement Name="Reserved_SubCheckMap" Value="1" />
     <DataElement Name="CheckObjectStorageKey" Value="Global\0745c77e188c4cf58b48744a6c863a5dCLIENTMACHINE11CLIENTMACHINE2c12dddffb4fa43c5b6645060849e5193.CLIENTMACHINE1.CLIENTMACHINE2" />
     <SubCheckData>
-      <DataElement Name="DestinationMachine" Value="CLIENTMACHINE3" />
+      <DataElement Name="DestinationMachine" Value="EDIT_CLIENTMACHINE3" />
       <DataElement Name="CheckMethodName" Value="ExampleInnerCheck" />
       <DataElement Name="CheckMethodGuid" Value="88180CD8-445C-4F26-8949-B3B731F610B5" />
       <DataElement Name="SemaphoreTimeOutMilliseconds" Value="20000" />
@@ -26,33 +26,33 @@
     </SubCheckData>
   </CheckRunData>
   <CheckCustomData>
-    <DataElement Name="TestFileNameAndPath" Value="\\FileServer\Shared Folders\MetaAutomationCheck\TestFile.txt" />
+    <DataElement Name="TestFileNameAndPath" Value="\\EDIT_FILEPATHORSHARE\TestFile.txt" />
     <DataElement Name="RandomString" Value="shclhbxgky" />
   </CheckCustomData>
   <CheckFailData />
   <CompleteCheckStepInfo>
-    <CheckStep Name="Method ExampleOuterCheck" msTimeLimit="15000" MachineName="CLIENTMACHINE2" msTimeElapsed="1078" Value="Pass">
-      <CheckStep Name="Create and write to the file" msTimeLimit="10000" MachineName="CLIENTMACHINE2" msTimeElapsed="1078" Value="Pass">
-        <CheckStep Name="Create the file." msTimeLimit="1000" MachineName="CLIENTMACHINE2" msTimeElapsed="15" Value="Pass">
-          <CheckStep Name="Get the filename." msTimeLimit="1000" MachineName="CLIENTMACHINE2" msTimeElapsed="0" Value="Pass" />
-          <CheckStep Name="Report the current user identity" msTimeLimit="1000" MachineName="CLIENTMACHINE2" msTimeElapsed="15" Value="Pass">
+    <CheckStep Name="Method ExampleOuterCheck" msTimeLimit="15000" MachineName="" msTimeElapsed="1078" Value="Pass">
+      <CheckStep Name="Create and write to the file" msTimeLimit="10000" MachineName="" msTimeElapsed="1078" Value="Pass">
+        <CheckStep Name="Create the file." msTimeLimit="1000" MachineName="" msTimeElapsed="15" Value="Pass">
+          <CheckStep Name="Get the filename." msTimeLimit="1000" MachineName="" msTimeElapsed="0" Value="Pass" />
+          <CheckStep Name="Report the current user identity" msTimeLimit="1000" MachineName="" msTimeElapsed="15" Value="Pass">
             <DataElement Name="Current user" Value="CheckClientUser" />
           </CheckStep>
-          <CheckStep Name="Get the stream to write to the file." msTimeLimit="1000" MachineName="CLIENTMACHINE2" msTimeElapsed="0" Value="Pass" />
+          <CheckStep Name="Get the stream to write to the file." msTimeLimit="1000" MachineName="" msTimeElapsed="0" Value="Pass" />
         </CheckStep>
-        <CheckStep Name="Create and record data for the file" msTimeLimit="1000" MachineName="CLIENTMACHINE2" msTimeElapsed="0" Value="Pass" />
-        <CheckStep Name="Write and close the file" msTimeLimit="1000" MachineName="CLIENTMACHINE2" msTimeElapsed="46" Value="Pass">
+        <CheckStep Name="Create and record data for the file" msTimeLimit="1000" MachineName="" msTimeElapsed="0" Value="Pass" />
+        <CheckStep Name="Write and close the file" msTimeLimit="1000" MachineName="" msTimeElapsed="46" Value="Pass">
           <DataElement Name="Data written to file" Value="shclhbxgky" />
         </CheckStep>
-        <CheckStep Name="Verify file contents from a different machine and/or process" msTimeLimit="10000" MachineName="CLIENTMACHINE2" msTimeElapsed="1015" Value="Pass">
-          <CheckStep Name="Method ExampleInnerCheck" msTimeLimit="2000" MachineName="CLIENTMACHINE3" msTimeElapsed="15" Value="Pass">
-            <CheckStep Name="Read the file and verify the contents." msTimeLimit="1000" MachineName="CLIENTMACHINE3" msTimeElapsed="15" Value="Pass">
-              <CheckStep Name="Report the current user identity" msTimeLimit="1000" MachineName="CLIENTMACHINE3" msTimeElapsed="0" Value="Pass">
+        <CheckStep Name="Verify file contents from a different machine and/or process" msTimeLimit="10000" MachineName="" msTimeElapsed="1015" Value="Pass">
+          <CheckStep Name="Method ExampleInnerCheck" msTimeLimit="2000" MachineName="" msTimeElapsed="15" Value="Pass">
+            <CheckStep Name="Read the file and verify the contents." msTimeLimit="1000" MachineName="" msTimeElapsed="15" Value="Pass">
+              <CheckStep Name="Report the current user identity" msTimeLimit="1000" MachineName="" msTimeElapsed="0" Value="Pass">
                 <DataElement Name="Current user" Value="CheckClientUser" />
               </CheckStep>
-              <CheckStep Name="Open the file for reading." msTimeLimit="1000" MachineName="CLIENTMACHINE3" msTimeElapsed="15" Value="Pass" />
-              <CheckStep Name="Read the file." msTimeLimit="1000" MachineName="CLIENTMACHINE3" msTimeElapsed="0" Value="Pass" />
-              <CheckStep Name="Verify file contents." msTimeLimit="1000" MachineName="CLIENTMACHINE3" msTimeElapsed="0" Value="Pass">
+              <CheckStep Name="Open the file for reading." msTimeLimit="1000" MachineName="" msTimeElapsed="15" Value="Pass" />
+              <CheckStep Name="Read the file." msTimeLimit="1000" MachineName="" msTimeElapsed="0" Value="Pass" />
+              <CheckStep Name="Verify file contents." msTimeLimit="1000" MachineName="" msTimeElapsed="0" Value="Pass">
                 <DataElement Name="Actual data read from file" Value="shclhbxgky" />
                 <DataElement Name="Expected data in file" Value="shclhbxgky" />
               </CheckStep>
